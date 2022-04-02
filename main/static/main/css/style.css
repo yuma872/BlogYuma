@@ -1,0 +1,217 @@
+:root {
+    --color1: #bf95d3;
+    --color2: #e8a600;
+}
+
+section {
+    padding: 100px 0;
+}
+
+header {
+    padding: 8px 0;
+}
+
+footer {
+    color: rgb(167, 167, 167);
+    text-align: center;
+    padding: 15px 0;
+    background-color: var(--bs-dark);
+}
+
+footer p {
+    margin: 0;
+}
+
+.logoyuma {
+    font-weight: bold;
+    float: left;
+}
+
+.navbar {
+    color: var(--bs-dark);
+    padding: 0;
+    padding-top: 7px;
+    float: right;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    padding: 0 5px;
+    display: inline;
+    color: var(--bs-dark);
+    transition: transform .2s ease;
+}
+
+.navbar ul li i {
+    padding: 0 2px;
+}
+
+.navbar ul a {
+    text-decoration: none;
+}
+
+.navbar ul li:hover,
+.navbar ul a:hover {
+    font-weight: bold;
+    color: var(--color2);
+    transform: scale(1.5);
+}
+
+.mainslide {
+    padding: 300px 0;
+    background-image: url(../img/background.png);
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+}
+
+.mainslide h1 {
+    font-weight: bold;
+}
+
+.krutoi {
+    background-color: white;
+    text-align: center;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bodycontacts {
+    padding: 250px 0;
+    background-color: var(--bs-gray-dark);
+}
+
+.contactspage {
+    color: var(--bs-white);
+    text-align: center;
+}
+
+
+/* Mews */
+
+.bodynews {
+    padding: 50px 0;
+    background-color: var(--bs-gray-dark);
+}
+
+.bodynews a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.newspage {
+    color: var(--bs-white);
+    text-align: center;
+}
+
+.newsstate {
+    color: var(--bs-gray-dark);
+    background-color: #fff;
+    opacity: 0.8;
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.createnews {
+    padding: 100px 0;
+    background-color: var(--bs-gray-dark);
+}
+
+.createnews h1 {
+    text-align: center;
+    padding-bottom: 10px;
+    color: var(--bs-white);
+}
+
+.m_btn {
+    margin-bottom: 30%;
+}
+
+.createfulltext {
+    height: 200px;
+}
+
+
+/* Friends */
+
+.yuma-friends {
+    background-color: #eee;
+}
+
+.yuma_img {
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 30px auto;
+    transition: all 0.2s ease;
+}
+
+.line {
+    width: 100px;
+    height: 3px;
+    background-color: var(--color1);
+    margin: 15px auto 30px;
+}
+
+#wovix {
+    background-image: url(../img/friends/wovix.jpg);
+}
+
+#slava {
+    background-image: url(../img/friends/slava.jpg);
+}
+
+#kolya {
+    background-image: url(../img/friends/kolya.jpg);
+}
+
+#henes {
+    background-image: url(../img/friends/henes.webp);
+}
+
+
+/* Color */
+
+.color1 {
+    color: var(--color1);
+}
+
+.color2 {
+    color: var(--color2);
+}
+
+.bg1 {
+    background-color: var(--color1);
+}
+
+.bg2 {
+    background-color: var(--color2);
+}

@@ -1,0 +1,57 @@
+{% extends 'main/layout.html' %} {% block title %} Блог Юмы {% endblock %} {% block content %}
+<section class="mainslide">
+    <div class="col-12">
+        <div class="col-12">
+            <h1 class="text-center text-white">{{ title }}</h1>
+        </div>
+    </div>
+</section>
+
+<section class="krutoi">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>Крутой жгёт</h1>
+                <div class='embed-container'><iframe src='https://www.youtube.com/embed//0_suf1OMpZI' frameborder='0' allowfullscreen></iframe></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="yuma-friends">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center text-uppercase color1 mb-5">Друзья Юмы</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="yuma_img" id="wovix"></div>
+                <h4 class="text-center">Wovix</h4>
+                <h5 class="text-center">Лучший друг юмы, играем в игры вместе</h5>
+                <div class="line"> </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="yuma_img" id="slava"></div>
+                <h4 class="text-center">Слава//mazyaka</h4>
+                <h5 class="text-center">Хороший друг, Одногруппник, воркаем вместе, играем вместе</h5>
+                <div class="line"></div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="yuma_img" id="kolya"></div>
+                <h4 class="text-center">Коля//sanar09</h4>
+                <h5 class="text-center">Хороший друг, Одногруппник, НЕворкаем вместе, играем вместе</h5>
+                <div class="line"> </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="yuma_img" id="henes"></div>
+                <h4 class="text-center">Henes</h4>
+                <h5 class="text-center">или может быть пэнес, саппорт где мы ворк, ооочень редко играем</h5>
+                <div class="line"> </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

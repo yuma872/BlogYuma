@@ -1,0 +1,21 @@
+{% extends 'main/layout.html' %} {% block title %} Добавить запись {% endblock %} {% block content %}
+<div class="createnews">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>Добавить запись</h1>
+                <form method="post">
+                    {% csrf_token %}
+                    <input type="text" placeholder="Название статьи" class="form-control" name="title"><br>
+                    <input type="text" placeholder="Анонс статьи" class="form-control" name="anons"><br>
+                    <textarea placeholder="Текст статьи" class="form-control createfulltext" name="full_text"></textarea><br>
+                    <input type="date" class="form-control" name="date"><br>
+
+                    <span class="text-white">{{ error }}</span>
+                    <button class="btn btn-success" type="submit">Добавить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
