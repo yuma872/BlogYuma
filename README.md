@@ -1,2 +1,2 @@
 # BlogYuma
-yumasblog project for https:/tg.me/yuma_tg
+yumasblog project for https:/t.me/yuma_tg
