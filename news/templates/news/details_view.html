@@ -13,10 +13,6 @@
                 </div>
             </div>
             <div class="col-2">{{ article.date }}</div>
-            <div class="col-12 m_btn">
-                <a href="{% url 'news-update' article.id %}" class="btn btn-warning text-white">Обновить запись</a>
-                <a href="{% url 'news-delete' article.id %}" class="btn btn-danger">Удалить запись</a>
-            </div>
         </div>
     </div>
 </section>

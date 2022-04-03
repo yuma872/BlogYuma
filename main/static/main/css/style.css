@@ -95,18 +95,73 @@ footer p {
     height: 100%;
 }
 
-.bodycontacts {
-    padding: 250px 0;
+
+/* About Me */
+
+.bodyaboutme {
+    padding: 50px 0;
     background-color: var(--bs-gray-dark);
 }
 
-.contactspage {
+.aboutmepage {
     color: var(--bs-white);
     text-align: center;
 }
 
+.aboutme_img {
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 30px auto;
+    transition: all 0.2s ease;
+}
 
-/* Mews */
+
+/* burgermenu */
+
+.menu-burger__header {
+    float: right;
+    position: relative;
+    width: 40px;
+    height: 35px;
+    display: block;
+    margin-left: 10px;
+}
+
+.menu-burger__header span,
+.menu-burger__header:after,
+.menu-burger__header:before {
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    background: #515758;
+    margin: 0 auto;
+}
+
+.menu-burger__header span {
+    top: 21px;
+}
+
+.menu-burger__header:after,
+.menu-burger__header:before {
+    content: '';
+}
+
+.menu-burger__header:after {
+    bottom: 5px;
+}
+
+.menu-burger__header:before {
+    top: 5px;
+}
+
+.header__nav {
+    display: none;
+}
+
+
+/* News */
 
 .bodynews {
     padding: 50px 0;
@@ -195,6 +250,10 @@ footer p {
 
 #henes {
     background-image: url(../img/friends/henes.webp);
+}
+
+#yuma {
+    background-image: url(../img/friends/yuma.jpg);
 }
 
 

@@ -7,5 +7,5 @@ def index(request):
     }
     return render(request, 'main/index.html', data)
 
-def contacts(request):
-    return render(request, 'main/contacts.html')
+def aboutme(request):
+    return render(request, 'main/aboutme.html')

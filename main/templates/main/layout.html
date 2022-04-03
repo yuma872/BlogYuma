@@ -19,8 +19,12 @@
             <div class="row">
                 <div class="col-12">
                     <h2 class="text-dark logoyuma">Блог Юмы</h2>
-
-                    <div class="navbar">
+                    <div class="mobilenavbar d-block d-sm-none">
+                        <div class="menu-burger__header">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="navbar d-none d-sm-block">
                         <ul>
                             <a href="{% url 'home' %}">
                                 <li><i class="bi bi-house-fill"></i>Главная</li>
@@ -28,8 +32,8 @@
                             <a href="{% url 'news_home' %}">
                                 <li><i class="bi bi-newspaper"></i>Новости</li>
                             </a>
-                            <a href="{% url 'contacts' %}">
-                                <li><i class="bi bi-share-fill"></i>Контакты</li>
+                            <a href="{% url 'aboutme' %}">
+                                <li><i class="bi bi-share-fill"></i>Обо мне</li>
                             </a>
                         </ul>
                     </div>
